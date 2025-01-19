@@ -332,3 +332,57 @@ footer input[type="email"]{
     gap: 30px;
     
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .resume-cols{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .ftr{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    footer input[type="text"], footer input[type="email"]{
+        width: calc(100% - 40px);
+    }
+    #text_area{
+        width: calc(100% - 40px);
+    }
+
+    .footer-colm{
+        width: 100%;
+    }
+
+    .about-items{
+        padding: 10px;
+    }
+    .about-info , .banner, nav, nav>ul{
+        flex-direction: column;
+    }
+    .banner{
+        margin-left: 5px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .header{
+        background-image: none;
+        
+    }
+}
